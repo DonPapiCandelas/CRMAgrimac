@@ -40,7 +40,9 @@ Para mantener el repositorio ligero y eficiente, se han excluido las siguientes 
 
 ### Pasos
 1. **Clonar el repositorio** en su carpeta pública (`htdocs` o `www`).
-2. **Restaurar Base de Datos**: Importe el archivo SQL más reciente (no incluido en este repo por seguridad/tamaño) en su servidor MySQL.
+2. **Restaurar Base de Datos**: 
+   - Importe el archivo `schema_structure.sql` incluido en la raíz para crear la estructura de tablas y procedimientos.
+   - Si tiene un backup de datos completo, impórtelo después.
 3. **Configuración**:
    - Abra el archivo `includes/init.php`.
    - Configure las credenciales de la base de datos en el array `$config`:
