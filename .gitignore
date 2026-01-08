@@ -1,6 +1,7 @@
 # User specific exclusions
 /uploads/
 *.sql
+!schema_structure.sql
 *.log
 *.zip
 *.rar
